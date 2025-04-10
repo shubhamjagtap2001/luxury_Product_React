@@ -14,6 +14,7 @@ const Product = () => {
             .then((data) => setCategories(data))
     };
 
+    
     const fetchProductData = () => {
         return fetch("https://dummyjson.com/products")
             .then((response) => response.json())
